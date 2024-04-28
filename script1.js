@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const email = formData.get('email');
         const full_name = formData.get('full_name');
         try {
-            const response = await fetch('/regoster', {
+            const response = await fetch('/register', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json'
